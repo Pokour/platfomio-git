@@ -11,5 +11,9 @@ int main(void){
     _delay_ms(1000);
     PORTB = 0x00;
     _delay_ms(1000);
+     PORTB = 0xFF;
+    _delay_ms(1000);
+    PORTB = 0x00;
+    _delay_ms(1000);
   }
 }
